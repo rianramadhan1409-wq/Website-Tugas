@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Toko - HyperVaultAutomotive</title>
+<link rel="stylesheet" href="style.css">
+<style>
+*{box-sizing:border-box}.store{max-width:1200px;margin:auto;padding:20px 5%;color:#f5f3ee;font-family:Arial,sans-serif}
+.store-header{text-align:center;padding:35px 12px 25px}.eyebrow,.tag{color:#d6b36a;letter-spacing:2px;font-size:12px;font-weight:bold}
+.store-header h1{font-size:clamp(27px,4vw,42px);color:#d6b36a;margin:12px 0}
+.store-header p{color:#c7c2b8;line-height:1.8}.store-title{text-align:center;color:#d6b36a;margin:30px 0 20px}
+.car-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,440px),1fr));gap:20px}
+.car-card{background:#151515;border:1px solid #393939;border-top:3px solid #d6b36a;border-radius:12px;padding:23px;transition:.25s}
+.car-card:hover{transform:translateY(-3px);box-shadow:0 10px 30px #0005}.car-top{display:flex;justify-content:space-between;align-items:center}
+.number{color:#777;font-size:13px}.car-card h2{color:#f5f3ee;font-size:23px;line-height:1.35;margin:15px 0 10px}
+.intro{color:#c7c2b8;line-height:1.7;min-height:75px}.spec-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:18px 0}
+.spec-grid div{background:#202020;padding:13px;border-radius:7px;min-width:0}.spec-grid small,.buy-row small{display:block;color:#a9a39a;font-size:11px;letter-spacing:1px;margin-bottom:7px}
+.spec-grid strong{color:#d6b36a;font-size:14px;line-height:1.5}
+.more{border-top:1px solid #393939;border-bottom:1px solid #393939;padding:13px 0;margin:10px 0 18px}
+.more summary{cursor:pointer;color:#d6b36a;font-weight:bold;display:flex;justify-content:space-between;gap:12px;list-style:none}.more summary::-webkit-details-marker{display:none}
+.more[open] summary span{transform:rotate(45deg)}.more-content{padding:12px 0 2px}.more-content h3{color:#d6b36a;font-size:15px;margin:14px 0 6px}
+.more-content p{color:#c7c2b8;line-height:1.7;font-size:14px;margin:0}.more-content .note{font-size:12px;color:#999;margin-top:15px}
+.buy-row{display:flex;justify-content:space-between;align-items:center;gap:15px}.price{color:#d6b36a;font-size:clamp(17px,2vw,21px);font-weight:bold}.status{color:#aaa;font-size:13px;margin-top:6px}
+.order-btn,.contact-btn{display:inline-block;background:#d6b36a;color:#111!important;text-decoration:none;font-weight:bold;padding:13px 18px;border-radius:7px;text-align:center}
+.order-btn:hover,.contact-btn:hover{background:#f0d18a}.store-info,.store-contact{background:#202020;padding:25px;border-radius:10px;text-align:center;margin-top:30px}
+.store-info h2,.store-contact h2{color:#d6b36a}.store-info p,.store-contact p{color:#c7c2b8;line-height:1.7}
+.disclaimer{font-size:12px;color:#999;margin-top:18px}
+@media(max-width:600px){.store{padding:12px 4%}.car-card{padding:17px}.buy-row{align-items:stretch;flex-direction:column}.order-btn{width:100%}.intro{min-height:0}}
+</style></head>
+<body><main class="store">
+<header class="store-header"><div class="eyebrow">HYPERVAULT AUTOMOTIVE</div><h1>Premium Hypercar Collection</h1><p>Jelajahi koleksi kendaraan eksotis dengan informasi mesin, performa, teknologi, dan karakter setiap model.</p></header>
+<h2 class="store-title">🏎️ Detail Koleksi Hypercar</h2>
+<section class="car-list">
+
+    <article class="car-card" id="mobil-1">
+      <div class="car-top"><span class="tag">KOLEKSI BUGATTI</span><span class="number">#01</span></div>
+      <h2>Bugatti Chiron Super Sport 300+</h2>
+      <p class="intro">Dirancang untuk kecepatan tinggi dengan bodi memanjang dan aerodinamika yang membantu kestabilan pada kecepatan ekstrem.</p>
+      <div class="spec-grid">
+        <div><small>MESIN</small><strong>8.0L W16 Quad-Turbo</strong></div>
+        <div><small>TENAGA</small><strong>1.600 HP</strong></div>
+        <div><small>0–100 KM/JAM</small><strong>±2,4 detik</strong></div>
+        <div><small>KECEPATAN MAKS.</small><strong>490 km/jam*</strong></div>
+      </div>
+      <details class="more">
+        <summary>Lihat detail lengkap <span>＋</span></summary>
+        <div class="more-content">
+          <h3>Gambaran kendaraan</h3><p>Dirancang untuk kecepatan tinggi dengan bodi memanjang dan aerodinamika yang membantu kestabilan pada kecepatan ekstrem.</p>
+          <h3>Fitur dan teknologi</h3><p>Mesin W16 quad-turbo, sistem pendinginan performa tinggi, serta kabin mewah yang memadukan kenyamanan dan teknologi.</p>
+          <h3>Karakter utama</h3><p>Fokus pada kecepatan maksimum, stabilitas, dan kemewahan Grand Touring.</p>
+          <p class="note">Spesifikasi performa dapat berbeda menurut versi, kondisi pengujian, dan konfigurasi kendaraan.</p>
+        </div>
+      </details>
+      <div class="buy-row"><div><small>HARGA ESTIMASI</small><div class="price">Rp 75.000.000.000</div><div class="status">Status: By Order</div></div>
+      <a class="order-btn" href="https://wa.me/6288994448568?text=Halo%20HyperVaultAutomotive%2C%20saya%20ingin%20bertanya%20tentang%20Bugatti%20Chiron%20Super%20Sport%20300%2B" target="_blank" rel="noopener">Tanya / Pesan</a></div>
+    </article>
+
+    <article class="car-card" id="mobil-2">
+      <div class="car-top"><span class="tag">KOLEKSI KOENIGSEGG</span><span class="number">#02</span></div>
+      <h2>Koenigsegg Jesko Absolut</h2>
+      <p class="intro">Versi Jesko yang berorientasi pada hambatan udara rendah dan kecepatan maksimum.</p>
+      <div class="spec-grid">
+        <div><small>MESIN</small><strong>5.0L V8 Twin-Turbo</strong></div>
+        <div><small>TENAGA</small><strong>Hingga 1.600 HP**</strong></div>
+        <div><small>0–100 KM/JAM</small><strong>Bergantung kondisi</strong></div>
+        <div><small>KECEPATAN MAKS.</small><strong>Target desain 500+ km/jam*</strong></div>
+      </div>
+      <details class="more">
+        <summary>Lihat detail lengkap <span>＋</span></summary>
+        <div class="more-content">
+          <h3>Gambaran kendaraan</h3><p>Versi Jesko yang berorientasi pada hambatan udara rendah dan kecepatan maksimum.</p>
+          <h3>Fitur dan teknologi</h3><p>Mesin V8 twin-turbo, transmisi Light Speed Transmission, serta desain bodi yang dioptimalkan untuk efisiensi aerodinamika.</p>
+          <h3>Karakter utama</h3><p>Mengutamakan efisiensi aerodinamika, rasio tenaga terhadap bobot, dan teknologi transmisi.</p>
+          <p class="note">Spesifikasi performa dapat berbeda menurut versi, kondisi pengujian, dan konfigurasi kendaraan.</p>
+        </div>
+      </details>
+      <div class="buy-row"><div><small>HARGA ESTIMASI</small><div class="price">Rp 65.000.000.000</div><div class="status">Status: By Order</div></div>
+      <a class="order-btn" href="https://wa.me/6288994448568?text=Halo%20HyperVaultAutomotive%2C%20saya%20ingin%20bertanya%20tentang%20Koenigsegg%20Jesko%20Absolut" target="_blank" rel="noopener">Tanya / Pesan</a></div>
+    </article>
+
+    <article class="car-card" id="mobil-3">
+      <div class="car-top"><span class="tag">KOLEKSI PAGANI</span><span class="number">#03</span></div>
+      <h2>Pagani Huayra BC</h2>
+      <p class="intro">Hypercar Italia yang memadukan pengerjaan artistik, material ringan, dan karakter berkendara berorientasi performa.</p>
+      <div class="spec-grid">
+        <div><small>MESIN</small><strong>6.0L V12 Twin-Turbo</strong></div>
+        <div><small>TENAGA</small><strong>Sekitar 800 HP</strong></div>
+        <div><small>0–100 KM/JAM</small><strong>±3,0 detik</strong></div>
+        <div><small>KECEPATAN MAKS.</small><strong>Sekitar 370 km/jam</strong></div>
+      </div>
+      <details class="more">
+        <summary>Lihat detail lengkap <span>＋</span></summary>
+        <div class="more-content">
+          <h3>Gambaran kendaraan</h3><p>Hypercar Italia yang memadukan pengerjaan artistik, material ringan, dan karakter berkendara berorientasi performa.</p>
+          <h3>Fitur dan teknologi</h3><p>Mesin V12 twin-turbo, penggunaan material komposit, serta elemen aerodinamika aktif pada keluarga Huayra.</p>
+          <h3>Karakter utama</h3><p>Menonjolkan craftsmanship, material eksotis, dan pengalaman berkendara eksklusif.</p>
+          <p class="note">Spesifikasi performa dapat berbeda menurut versi, kondisi pengujian, dan konfigurasi kendaraan.</p>
+        </div>
+      </details>
+      <div class="buy-row"><div><small>HARGA ESTIMASI</small><div class="price">Rp 55.000.000.000</div><div class="status">Status: By Order</div></div>
+      <a class="order-btn" href="https://wa.me/6288994448568?text=Halo%20HyperVaultAutomotive%2C%20saya%20ingin%20bertanya%20tentang%20Pagani%20Huayra%20BC" target="_blank" rel="noopener">Tanya / Pesan</a></div>
+    </article>
+
+    <article class="car-card" id="mobil-4">
+      <div class="car-top"><span class="tag">KOLEKSI MCLAREN</span><span class="number">#04</span></div>
+      <h2>McLaren P1</h2>
+      <p class="intro">Hypercar hybrid yang mengambil pendekatan teknologi dari motorsport untuk menghasilkan respons dan performa tinggi.</p>
+      <div class="spec-grid">
+        <div><small>MESIN</small><strong>3.8L V8 Twin-Turbo Hybrid</strong></div>
+        <div><small>TENAGA</small><strong>903 HP</strong></div>
+        <div><small>0–100 KM/JAM</small><strong>±2,8 detik</strong></div>
+        <div><small>KECEPATAN MAKS.</small><strong>350 km/jam</strong></div>
+      </div>
+      <details class="more">
+        <summary>Lihat detail lengkap <span>＋</span></summary>
+        <div class="more-content">
+          <h3>Gambaran kendaraan</h3><p>Hypercar hybrid yang mengambil pendekatan teknologi dari motorsport untuk menghasilkan respons dan performa tinggi.</p>
+          <h3>Fitur dan teknologi</h3><p>Kombinasi mesin V8 twin-turbo dan motor listrik, sistem pengereman regeneratif, serta aerodinamika aktif.</p>
+          <h3>Karakter utama</h3><p>Menggabungkan tenaga mesin pembakaran dan bantuan listrik untuk performa responsif.</p>
+          <p class="note">Spesifikasi performa dapat berbeda menurut versi, kondisi pengujian, dan konfigurasi kendaraan.</p>
+        </div>
+      </details>
+      <div class="buy-row"><div><small>HARGA ESTIMASI</small><div class="price">Rp 30.000.000.000</div><div class="status">Status: By Order</div></div>
+      <a class="order-btn" href="https://wa.me/6288994448568?text=Halo%20HyperVaultAutomotive%2C%20saya%20ingin%20bertanya%20tentang%20McLaren%20P1" target="_blank" rel="noopener">Tanya / Pesan</a></div>
+    </article>
+
+    <article class="car-card" id="mobil-5">
+      <div class="car-top"><span class="tag">KOLEKSI ASTON MARTIN</span><span class="number">#05</span></div>
+      <h2>Aston Martin Valkyrie</h2>
+      <p class="intro">Dirancang dengan filosofi mobil balap untuk jalan raya, dengan perhatian besar pada bobot dan aliran udara.</p>
+      <div class="spec-grid">
+        <div><small>MESIN</small><strong>6.5L V12 Hybrid</strong></div>
+        <div><small>TENAGA</small><strong>Sekitar 1.160 HP</strong></div>
+        <div><small>0–100 KM/JAM</small><strong>±2,5 detik</strong></div>
+        <div><small>KECEPATAN MAKS.</small><strong>355 km/jam</strong></div>
+      </div>
+      <details class="more">
+        <summary>Lihat detail lengkap <span>＋</span></summary>
+        <div class="more-content">
+          <h3>Gambaran kendaraan</h3><p>Dirancang dengan filosofi mobil balap untuk jalan raya, dengan perhatian besar pada bobot dan aliran udara.</p>
+          <h3>Fitur dan teknologi</h3><p>Mesin V12 naturally aspirated yang dipadukan sistem hybrid, struktur ringan, dan paket aerodinamika berorientasi downforce.</p>
+          <h3>Karakter utama</h3><p>Fokus pada sensasi berkendara mendekati mobil balap dan aerodinamika ekstrem.</p>
+          <p class="note">Spesifikasi performa dapat berbeda menurut versi, kondisi pengujian, dan konfigurasi kendaraan.</p>
+        </div>
+      </details>
+      <div class="buy-row"><div><small>HARGA ESTIMASI</small><div class="price">Rp 45.000.000.000</div><div class="status">Status: By Order</div></div>
+      <a class="order-btn" href="https://wa.me/6288994448568?text=Halo%20HyperVaultAutomotive%2C%20saya%20ingin%20bertanya%20tentang%20Aston%20Martin%20Valkyrie" target="_blank" rel="noopener">Tanya / Pesan</a></div>
+    </article>
+
+    <article class="car-card" id="mobil-6">
+      <div class="car-top"><span class="tag">KOLEKSI FERRARI</span><span class="number">#06</span></div>
+      <h2>Ferrari LaFerrari</h2>
+      <p class="intro">Model flagship Ferrari yang menggabungkan mesin V12 dengan sistem HY-KERS untuk menambah performa.</p>
+      <div class="spec-grid">
+        <div><small>MESIN</small><strong>6.3L V12 Hybrid</strong></div>
+        <div><small>TENAGA</small><strong>950 HP</strong></div>
+        <div><small>0–100 KM/JAM</small><strong>Di bawah 3 detik</strong></div>
+        <div><small>KECEPATAN MAKS.</small><strong>Lebih dari 350 km/jam</strong></div>
+      </div>
+      <details class="more">
+        <summary>Lihat detail lengkap <span>＋</span></summary>
+        <div class="more-content">
+          <h3>Gambaran kendaraan</h3><p>Model flagship Ferrari yang menggabungkan mesin V12 dengan sistem HY-KERS untuk menambah performa.</p>
+          <h3>Fitur dan teknologi</h3><p>Mesin V12, motor listrik, sistem pemulihan energi, serta desain kabin dan eksterior khas Ferrari.</p>
+          <h3>Karakter utama</h3><p>Perpaduan karakter mesin V12, teknologi hybrid, dan pengalaman supercar Ferrari.</p>
+          <p class="note">Spesifikasi performa dapat berbeda menurut versi, kondisi pengujian, dan konfigurasi kendaraan.</p>
+        </div>
+      </details>
+      <div class="buy-row"><div><small>HARGA ESTIMASI</small><div class="price">Rp 50.000.000.000</div><div class="status">Status: By Order</div></div>
+      <a class="order-btn" href="https://wa.me/6288994448568?text=Halo%20HyperVaultAutomotive%2C%20saya%20ingin%20bertanya%20tentang%20Ferrari%20LaFerrari" target="_blank" rel="noopener">Tanya / Pesan</a></div>
+    </article>
+
+    <article class="car-card" id="mobil-7">
+      <div class="car-top"><span class="tag">KOLEKSI LAMBORGHINI</span><span class="number">#07</span></div>
+      <h2>Lamborghini Veneno</h2>
+      <p class="intro">Edisi sangat terbatas dengan desain tajam dan bentuk bodi yang menekankan fungsi aerodinamika.</p>
+      <div class="spec-grid">
+        <div><small>MESIN</small><strong>6.5L V12</strong></div>
+        <div><small>TENAGA</small><strong>750 HP</strong></div>
+        <div><small>0–100 KM/JAM</small><strong>±2,8 detik</strong></div>
+        <div><small>KECEPATAN MAKS.</small><strong>355 km/jam</strong></div>
+      </div>
+      <details class="more">
+        <summary>Lihat detail lengkap <span>＋</span></summary>
+        <div class="more-content">
+          <h3>Gambaran kendaraan</h3><p>Edisi sangat terbatas dengan desain tajam dan bentuk bodi yang menekankan fungsi aerodinamika.</p>
+          <h3>Fitur dan teknologi</h3><p>Mesin V12 naturally aspirated, struktur ringan berbasis serat karbon, serta saluran udara dan sayap besar.</p>
+          <h3>Karakter utama</h3><p>Mengutamakan desain ekstrem, eksklusivitas, dan karakter mesin V12.</p>
+          <p class="note">Spesifikasi performa dapat berbeda menurut versi, kondisi pengujian, dan konfigurasi kendaraan.</p>
+        </div>
+      </details>
+      <div class="buy-row"><div><small>HARGA ESTIMASI</small><div class="price">Rp 70.000.000.000</div><div class="status">Status: By Order</div></div>
+      <a class="order-btn" href="https://wa.me/6288994448568?text=Halo%20HyperVaultAutomotive%2C%20saya%20ingin%20bertanya%20tentang%20Lamborghini%20Veneno" target="_blank" rel="noopener">Tanya / Pesan</a></div>
+    </article>
+
+    <article class="car-card" id="mobil-8">
+      <div class="car-top"><span class="tag">KOLEKSI MERCEDES-AMG</span><span class="number">#08</span></div>
+      <h2>Mercedes-AMG ONE</h2>
+      <p class="intro">Mengadaptasi teknologi powertrain Formula 1 ke mobil jalan raya dengan sistem hybrid berperforma tinggi.</p>
+      <div class="spec-grid">
+        <div><small>MESIN</small><strong>1.6L V6 Turbo Hybrid</strong></div>
+        <div><small>TENAGA</small><strong>1.063 HP</strong></div>
+        <div><small>0–100 KM/JAM</small><strong>±2,9 detik</strong></div>
+        <div><small>KECEPATAN MAKS.</small><strong>352 km/jam</strong></div>
+      </div>
+      <details class="more">
+        <summary>Lihat detail lengkap <span>＋</span></summary>
+        <div class="more-content">
+          <h3>Gambaran kendaraan</h3><p>Mengadaptasi teknologi powertrain Formula 1 ke mobil jalan raya dengan sistem hybrid berperforma tinggi.</p>
+          <h3>Fitur dan teknologi</h3><p>Mesin V6 turbo dan beberapa motor listrik, sistem pemulihan energi, serta aerodinamika aktif.</p>
+          <h3>Karakter utama</h3><p>Menawarkan pendekatan teknologi motorsport dan sistem penggerak hybrid kompleks.</p>
+          <p class="note">Spesifikasi performa dapat berbeda menurut versi, kondisi pengujian, dan konfigurasi kendaraan.</p>
+        </div>
+      </details>
+      <div class="buy-row"><div><small>HARGA ESTIMASI</small><div class="price">Rp 65.000.000.000</div><div class="status">Status: By Order</div></div>
+      <a class="order-btn" href="https://wa.me/6288994448568?text=Halo%20HyperVaultAutomotive%2C%20saya%20ingin%20bertanya%20tentang%20Mercedes-AMG%20ONE" target="_blank" rel="noopener">Tanya / Pesan</a></div>
+    </article>
+
+    <article class="car-card" id="mobil-9">
+      <div class="car-top"><span class="tag">KOLEKSI GORDON MURRAY AUTOMOTIVE</span><span class="number">#09</span></div>
+      <h2>Gordon Murray T.50</h2>
+      <p class="intro">Hypercar ringan yang dirancang dengan fokus pada pengemudi, visibilitas, dan respons mesin putaran tinggi.</p>
+      <div class="spec-grid">
+        <div><small>MESIN</small><strong>4.0L V12 Naturally Aspirated</strong></div>
+        <div><small>TENAGA</small><strong>663 HP</strong></div>
+        <div><small>0–100 KM/JAM</small><strong>Bergantung kondisi</strong></div>
+        <div><small>KECEPATAN MAKS.</small><strong>Sekitar 350 km/jam*</strong></div>
+      </div>
+      <details class="more">
+        <summary>Lihat detail lengkap <span>＋</span></summary>
+        <div class="more-content">
+          <h3>Gambaran kendaraan</h3><p>Hypercar ringan yang dirancang dengan fokus pada pengemudi, visibilitas, dan respons mesin putaran tinggi.</p>
+          <h3>Fitur dan teknologi</h3><p>Mesin V12 Cosworth, konfigurasi tiga tempat duduk dengan posisi pengemudi di tengah, serta kipas aerodinamika belakang.</p>
+          <h3>Karakter utama</h3><p>Memprioritaskan bobot ringan, keterlibatan pengemudi, dan karakter mesin naturally aspirated.</p>
+          <p class="note">Spesifikasi performa dapat berbeda menurut versi, kondisi pengujian, dan konfigurasi kendaraan.</p>
+        </div>
+      </details>
+      <div class="buy-row"><div><small>HARGA ESTIMASI</small><div class="price">Rp 35.000.000.000</div><div class="status">Status: By Order</div></div>
+      <a class="order-btn" href="https://wa.me/6288994448568?text=Halo%20HyperVaultAutomotive%2C%20saya%20ingin%20bertanya%20tentang%20Gordon%20Murray%20T.50" target="_blank" rel="noopener">Tanya / Pesan</a></div>
+    </article>
+
+    <article class="car-card" id="mobil-10">
+      <div class="car-top"><span class="tag">KOLEKSI HENNESSEY</span><span class="number">#10</span></div>
+      <h2>Hennessey Venom F5</h2>
+      <p class="intro">Hypercar buatan Amerika yang dikembangkan dengan sasaran kecepatan sangat tinggi dan bobot yang terkendali.</p>
+      <div class="spec-grid">
+        <div><small>MESIN</small><strong>6.6L V8 Twin-Turbo</strong></div>
+        <div><small>TENAGA</small><strong>1.817 HP</strong></div>
+        <div><small>0–100 KM/JAM</small><strong>Di bawah 3 detik*</strong></div>
+        <div><small>KECEPATAN MAKS.</small><strong>Target 480+ km/jam*</strong></div>
+      </div>
+      <details class="more">
+        <summary>Lihat detail lengkap <span>＋</span></summary>
+        <div class="more-content">
+          <h3>Gambaran kendaraan</h3><p>Hypercar buatan Amerika yang dikembangkan dengan sasaran kecepatan sangat tinggi dan bobot yang terkendali.</p>
+          <h3>Fitur dan teknologi</h3><p>Mesin V8 twin-turbo ‘Fury’, sasis ringan, dan bodi yang dirancang untuk performa kecepatan tinggi.</p>
+          <h3>Karakter utama</h3><p>Berorientasi pada rasio tenaga terhadap bobot dan pencapaian kecepatan maksimum.</p>
+          <p class="note">Spesifikasi performa dapat berbeda menurut versi, kondisi pengujian, dan konfigurasi kendaraan.</p>
+        </div>
+      </details>
+      <div class="buy-row"><div><small>HARGA ESTIMASI</small><div class="price">Rp 60.000.000.000</div><div class="status">Status: By Order</div></div>
+      <a class="order-btn" href="https://wa.me/6288994448568?text=Halo%20HyperVaultAutomotive%2C%20saya%20ingin%20bertanya%20tentang%20Hennessey%20Venom%20F5" target="_blank" rel="noopener">Tanya / Pesan</a></div>
+    </article>
+</section>
+<section class="store-info"><h2>Informasi Pemesanan</h2><p>Seluruh kendaraan ditampilkan sebagai katalog referensi dan berstatus by order. Ketersediaan unit, kondisi, spesifikasi, dan harga akhir perlu dikonfirmasi sebelum transaksi.</p><p>Harga merupakan estimasi untuk kebutuhan katalog dan dapat berubah karena tahun produksi, kondisi kendaraan, pajak, biaya impor, serta kondisi pasar.</p></section>
+<section class="store-contact"><h2>Butuh Informasi Lebih Lanjut?</h2><p>Hubungi HyperVaultAutomotive untuk konsultasi mengenai model yang kamu minati.</p><a class="contact-btn" href="https://wa.me/6288994448568" target="_blank" rel="noopener">Hubungi WhatsApp</a></section>
+<p class="disclaimer">*Angka kecepatan dan akselerasi adalah angka referensi atau target yang dilaporkan untuk versi tertentu, bukan jaminan performa. **Tenaga Jesko dapat bergantung pada bahan bakar dan konfigurasi. Halaman ini merupakan katalog demonstrasi.</p>
+</main></body></html>
